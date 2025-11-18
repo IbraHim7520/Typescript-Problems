@@ -11,7 +11,7 @@ type Person = { <br></br>
   name: string;  <br></br>
   age: number;  <br></br>
   country: string;  <br></br>
-};
+}; <br></br>
 type PKey = keyof Person;  <br></br>
 _//Output:
 //"name" | "age" | "country"_  <br></br>
