@@ -5,15 +5,15 @@
 
 **2.** What is the use of the keyof keyword in TypeScript? Provide an example.
 keyof দিয়ে কোনো object type-এর সব property নাম বের করা যায় । এগুলোকে পরে variable, function parameter বা generic constraint হিসেবে ব্যবহার করা যায়।
-->Example:
+->Example:  <br></br>
 
-type Person = {
-  name: string;
-  age: number;
-  country: string;
+type Person = { <br></br>
+  name: string;  <br></br>
+  age: number;  <br></br>
+  country: string;  <br></br>
 };
-type PKey = keyof Person;
+type PKey = keyof Person;  <br></br>
 _//Output:
-//"name" | "age" | "country"_
+//"name" | "age" | "country"_  <br></br>
 
 
