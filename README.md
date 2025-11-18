@@ -13,7 +13,7 @@ type Person = { <br></br>
   country: string;  <br></br>
 }; <br></br>
 type PKey = keyof Person;  <br></br>
-_//Output:
+_//Output: <br></br>
 //"name" | "age" | "country"_  <br></br>
 
 
